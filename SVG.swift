@@ -75,7 +75,7 @@ class SVGView: UIView {
         let url = Bundle.main.url(forResource: name, withExtension: "svg")!
         let data = try! Data(contentsOf: url)
         let text = String(data: data, encoding: .utf8)!
-        html = "<html style=\"background-color: rgb(\(r),\(g),\(b));\">\(text)</html>"
+        html = "<html style=\"background-color: rgba(0,0,0,0);\">\(text)</html>"
         
         let raw1 = text.components(separatedBy: "viewBox")
         guard raw1.count >= 2 else { assert(false, "svg viewBox not found") }
@@ -89,9 +89,12 @@ class SVGView: UIView {
         
         super.init(frame: CGRect(origin: .zero, size: localSize ?? .zero))
         
-        backgroundColor = color
+        /*backgroundColor = color*/
         
         webView.loadHTMLString(html, baseURL: URL(string: "http://hexagons.se/"))
+        webView.isOpaque = false
+        webView.backgroundColor = UIColor.clear
+        webView.scrollView.backgroundColor = UIColor.clear
         webView.isUserInteractionEnabled = false
         addSubview(webView)
         

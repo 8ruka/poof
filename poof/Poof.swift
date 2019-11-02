@@ -9,6 +9,7 @@
 import Foundation
 
 class Poof: ObservableObject {
+   
     let levels: [Level] = [
         Level(backgroundColorR: .hex("FFF5FF"),
               backgroundColorL: .hex("E6FFDC"),
@@ -17,7 +18,7 @@ class Poof: ObservableObject {
                      objects: [
                         Object(name: "circlegreen",
                                target:Target(name:"circledashedlevel1",
-                                             point:.zero, backgroundColor: .hex("41FF69") )),
+                                             point:.zero )),
                         Object(name: "triangleredsmall",target: nil),
                         Object(name: "squarepurple",target: nil),
                 ]
@@ -28,10 +29,18 @@ class Poof: ObservableObject {
             
         
     ]
+ 
     @Published var currentLevel:Level
     @Published var currentQuestion:Question
+ 
     init() {
+        print("Poof!")
         currentLevel = levels.first!
         currentQuestion = levels.first!.questions.first!
     }
+    
+    func questionCompleted() {
+        print("Question completed")
+    }
+    
 }

@@ -13,5 +13,4 @@ import UIKit
 struct Target {
     let name:String
     let point:CGPoint
-    let backgroundColor:UIColor
 }
