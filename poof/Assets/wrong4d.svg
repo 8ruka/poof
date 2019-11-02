@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 240 480">
+  <defs>
+    <style>
+      .cls-1, .cls-6 {
+        fill: #6900ff;
+      }
+
+      .cls-2 {
+        fill: #ffc300;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        fill: #ff00a5;
+      }
+
+      .cls-5 {
+        fill: #00e66e;
+      }
+
+      .cls-6 {
+        stroke: #707070;
+      }
+
+      .cls-7 {
+        stroke: none;
+      }
+
+      .cls-8 {
+        fill: none;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_453" data-name="Rectangle 453" class="cls-1" width="480" height="240" rx="10" transform="translate(477 296) rotate(90)"/>
+    </clipPath>
+  </defs>
+  <g id="wrong4d" transform="translate(-1499 -296)">
+    <rect id="Rectangle_450" data-name="Rectangle 450" class="cls-2" width="480" height="240" rx="10" transform="translate(1499 776) rotate(-90)"/>
+    <g id="Mask_Group_20" data-name="Mask Group 20" class="cls-3" transform="translate(1976 1072) rotate(180)">
+      <path id="Path_402" data-name="Path 402" class="cls-4" d="M0,0H174.48V103.775H0Z" transform="translate(395.962 372.837)"/>
+      <rect id="Rectangle_451" data-name="Rectangle 451" class="cls-5" width="270.272" height="103.775" transform="translate(345.785 476.612)"/>
+      <g id="Rectangle_452" data-name="Rectangle 452" class="cls-6" transform="translate(289.906 580.388)">
+        <rect class="cls-7" width="375.188" height="103.775"/>
+        <rect class="cls-8" x="0.5" y="0.5" width="374.188" height="102.775"/>
+      </g>
+    </g>
+  </g>
+</svg>

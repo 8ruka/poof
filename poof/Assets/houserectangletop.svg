@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 160">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00e66e;
+      }
+    </style>
+  </defs>
+  <rect id="Rectangle_361" data-name="Rectangle 361" class="cls-1" width="160" height="120" rx="10" transform="translate(120) rotate(90)"/>
+</svg>

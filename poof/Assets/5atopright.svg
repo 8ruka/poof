@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 320 240">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #707070;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 11px;
+        stroke-dasharray: 20 30;
+      }
+
+      .cls-2 {
+        fill: #c62626;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-5 {
+        fill: #00ffe6;
+      }
+
+      .cls-6 {
+        fill: #00e66e;
+      }
+
+      .cls-7 {
+        fill: #ffc300;
+      }
+
+      .cls-8 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_500" data-name="Rectangle 500" class="cls-1" width="240" height="320" transform="translate(6776 7627) rotate(90)"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_499" data-name="Rectangle 499" class="cls-2" width="640" height="480" transform="translate(6190 8298)"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_34" data-name="Mask Group 34" class="cls-3" transform="translate(-6456 -7627)">
+    <g id="Mask_Group_33" data-name="Mask Group 33" class="cls-4" transform="translate(-13 -680)">
+      <rect id="Rectangle_495" data-name="Rectangle 495" class="cls-5" width="640" height="365" transform="translate(6148 8307)"/>
+      <rect id="Rectangle_496" data-name="Rectangle 496" class="cls-6" width="640" height="115" transform="translate(6136 8672)"/>
+      <ellipse id="Ellipse_235" data-name="Ellipse 235" class="cls-7" cx="64.188" cy="64.188" rx="64.188" ry="64.188" transform="translate(6507.506 8349)"/>
+      <path id="Union_15" data-name="Union 15" class="cls-8" d="M23.609,100.21v-.048a25.185,25.185,0,0,1,0-50.271v-.049H75.137A25.187,25.187,0,0,1,78.7.048V0H185.732V.194a25.188,25.188,0,0,1,0,49.979v.194h-53.1a25.189,25.189,0,0,1-1.991,49.649v.194Z" transform="translate(6521.232 8412.789)"/>
+      <path id="Path_418" data-name="Path 418" class="cls-6" d="M3875.646,14563.941l-171.961,437.439h350.43Z" transform="translate(2357.778 -6235.708)"/>
+      <path id="Path_419" data-name="Path 419" class="cls-6" d="M3861.177,14563.941l-157.492,324.539H4024.63Z" transform="translate(2547.602 -6123.048)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 320 240">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #707070;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 11px;
+        stroke-dasharray: 20 30;
+      }
+
+      .cls-2 {
+        fill: #00ffe6;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-5 {
+        fill: #00e66e;
+      }
+
+      .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-7 {
+        fill: #ff4100;
+      }
+
+      .cls-8 {
+        fill: #ffc300;
+      }
+
+      .cls-9 {
+        fill: #6900ff;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_797" data-name="Rectangle 797" class="cls-1" width="240" height="320" transform="translate(1767 289) rotate(90)"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_790" data-name="Rectangle 790" class="cls-2" width="640" height="480" transform="translate(6136 8307)"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_98" data-name="Mask Group 98" class="cls-3" transform="translate(-1447 -289)">
+    <g id="house" transform="translate(-3692 -8130)">
+      <g id="Group_224" data-name="Group 224" transform="translate(-831 1106)">
+        <g id="Group_223" data-name="Group 223">
+          <g id="Group_222" data-name="Group 222">
+            <g id="Mask_Group_97" data-name="Mask Group 97" class="cls-4" transform="translate(-166 -1234)">
+              <path id="Path_785" data-name="Path 785" class="cls-2" d="M10,0H630c5.523,0,10,6.7,10,14.967V531.311c0,8.266-4.477,14.966-10,14.966H10c-5.523,0-10-6.7-10-14.966V14.967C0,6.7,4.477,0,10,0Z" transform="translate(6136 8267.494)"/>
+              <path id="Path_786" data-name="Path 786" class="cls-2" d="M0,0H185V396H0Z" transform="translate(6621 8520)"/>
+              <ellipse id="Ellipse_395" data-name="Ellipse 395" class="cls-2" cx="46" cy="46" rx="46" ry="46" transform="translate(6255.506 8358)"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <path id="Path_787" data-name="Path 787" class="cls-5" d="M3760.381,14563.938l-56.7,150.028h115.538Z" transform="translate(1476.616 -6180.257)"/>
+      <path id="Path_788" data-name="Path 788" class="cls-6" d="M3786.813,14563.939l-83.129,165.146h169.4Z" transform="translate(1631.616 -6329.466)"/>
+      <rect id="Rectangle_791" data-name="Rectangle 791" class="cls-5" width="172" height="178" transform="translate(5333 8400)"/>
+      <rect id="Rectangle_792" data-name="Rectangle 792" class="cls-7" width="244" height="178" transform="translate(5505 8400)"/>
+      <rect id="Rectangle_793" data-name="Rectangle 793" class="cls-8" width="24.158" height="46.291" transform="translate(5225.732 8533.71)"/>
+      <rect id="Rectangle_794" data-name="Rectangle 794" class="cls-8" width="47.158" height="44.291" transform="translate(5570.732 8440.71)"/>
+      <rect id="Rectangle_795" data-name="Rectangle 795" class="cls-8" width="47.158" height="44.291" transform="translate(5646.732 8440.71)"/>
+      <rect id="Rectangle_796" data-name="Rectangle 796" class="cls-8" width="640" height="81" transform="translate(5139 8578)"/>
+      <path id="Path_789" data-name="Path 789" class="cls-9" d="M-1.628.715H235.645L328.84,166H84.448Z" transform="translate(5420 8234)"/>
+    </g>
+  </g>
+</svg>

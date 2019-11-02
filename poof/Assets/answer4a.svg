@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 240 480" style="enable-background:new 0 0 240 480;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FF4100;}
+	.st1{clip-path:url(#SVGID_2_);}
+	.st2{fill:#6900FF;}
+</style>
+<g id="Group_156" transform="translate(-1207 -281)">
+	<path id="Rectangle_415" class="st0" d="M1207,751V291c0-5.5,4.5-10,10-10h220c5.5,0,10,4.5,10,10v460c0,5.5-4.5,10-10,10h-220
+		C1211.5,761,1207,756.5,1207,751z"/>
+	<g>
+		<g>
+			<defs>
+				<path id="SVGID_1_" d="M477,291v460c0,5.5-4.5,10-10,10H247c-5.5,0-10-4.5-10-10V291c0-5.5,4.5-10,10-10h220
+					C472.5,281,477,285.5,477,291z"/>
+			</defs>
+			<clipPath id="SVGID_2_">
+				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+			</clipPath>
+			<g id="Mask_Group_4" transform="translate(1684 1042) rotate(180)" class="st1">
+				<path id="Path_379" class="st2" d="M477.5,660.5L477.5,660.5c-77.3,0-140-62.7-140-140l0,0l0,0c0-77.3,62.7-140,140-140l0,0l0,0
+					c77.3,0,140,62.7,140,140l0,0l0,0C617.5,597.8,554.8,660.5,477.5,660.5L477.5,660.5z"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="Mask_Group_3">
+	<path class="st2" d="M140,240C140,240,140,240,140,240C140,240,140,240,140,240c0,77.3-62.7,140-140,140c0,0,0,0,0,0V100
+		c38.7,0,73.7,15.7,99,41C124.3,166.3,140,201.3,140,240z"/>
+</g>
+</svg>

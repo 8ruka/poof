@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 240 480">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #6900ff;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #ffc300;
+      }
+
+      .cls-4 {
+        fill: #00ffe6;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_410" data-name="Rectangle 410" class="cls-1" width="480" height="240" rx="10" transform="translate(477 296) rotate(90)"/>
+    </clipPath>
+  </defs>
+  <g id="question" transform="translate(-237 -296)">
+    <rect id="Rectangle_410-2" data-name="Rectangle 410" class="cls-1" width="480" height="240" rx="10" transform="translate(477 296) rotate(90)"/>
+    <g id="Mask_Group_16" data-name="Mask Group 16" class="cls-2">
+      <g id="Group_167" data-name="Group 167">
+        <circle id="Ellipse_214" data-name="Ellipse 214" class="cls-3" cx="94" cy="94" r="94" transform="translate(382 352)"/>
+        <path id="Path_395" data-name="Path 395" class="cls-4" d="M3892.124,14564.146l-188.438,167.413h374.872Z" transform="translate(-3415 -14024)"/>
+      </g>
+    </g>
+  </g>
+</svg>

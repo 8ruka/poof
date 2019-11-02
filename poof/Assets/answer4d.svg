@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 240 480">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffc300;
+      }
+
+      .cls-2 {
+        fill: #00ffe6;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-5 {
+        fill: #ff00a5;
+      }
+
+      .cls-6 {
+        fill: #00e66e;
+      }
+
+      .cls-7 {
+        fill: #6900ff;
+        stroke: #707070;
+      }
+
+      .cls-8 {
+        stroke: none;
+      }
+
+      .cls-9 {
+        fill: none;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_456" data-name="Rectangle 456" class="cls-1" width="480" height="240" rx="10" transform="translate(477 296) rotate(90)"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_403" data-name="Path 403" class="cls-2" d="M3889.211,14565.038l-185.525,311.725h371.479Z" transform="translate(-2692 -14581.202)"/>
+    </clipPath>
+  </defs>
+  <g id="answer4d" transform="translate(-237 -296)">
+    <rect id="Rectangle_410" data-name="Rectangle 410" class="cls-1" width="480" height="240" rx="10" transform="translate(477 296) rotate(90)"/>
+    <g id="Mask_Group_22" data-name="Mask Group 22" class="cls-3">
+      <g id="Mask_Group_21" data-name="Mask Group 21" class="cls-4" transform="translate(-960 391)">
+        <g id="Group_172" data-name="Group 172" transform="translate(145 -389)">
+          <path id="Path_404" data-name="Path 404" class="cls-5" d="M0,0H174.48V103.775H0Z" transform="translate(970.962 372.836)"/>
+          <rect id="Rectangle_454" data-name="Rectangle 454" class="cls-6" width="270.272" height="103.775" transform="translate(920.785 476.611)"/>
+          <g id="Rectangle_455" data-name="Rectangle 455" class="cls-7" transform="translate(864.906 580.387)">
+            <rect class="cls-8" width="375.188" height="103.775"/>
+            <rect class="cls-9" x="0.5" y="0.5" width="374.188" height="102.775"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

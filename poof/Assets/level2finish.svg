@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 339.989 560.74">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #848484;
+      }
+
+      .cls-2 {
+        fill: lime;
+      }
+
+      .cls-3 {
+        fill: #ff5f27;
+      }
+
+      .cls-4 {
+        fill: #4d4d4d;
+      }
+    </style>
+  </defs>
+  <g id="Group_96" data-name="Group 96" transform="translate(-794.428 -368.225)">
+    <ellipse id="Ellipse_198" data-name="Ellipse 198" class="cls-1" cx="111.684" cy="30.713" rx="111.684" ry="30.713" transform="translate(848.311 867.539)"/>
+    <path id="Path_289" data-name="Path 289" class="cls-2" d="M19.3,103.678h0A19.3,19.3,0,0,1,0,84.376V19.3A19.3,19.3,0,0,1,19.3,0h0A19.3,19.3,0,0,1,38.6,19.3V84.376A19.068,19.068,0,0,1,19.3,103.678Z" transform="translate(869.394 709.587) rotate(41)"/>
+    <path id="Path_290" data-name="Path 290" class="cls-2" d="M1438.8,1284.278h0a19.3,19.3,0,0,1-19.3-19.3V1199.9a19.3,19.3,0,0,1,19.3-19.3h0a19.3,19.3,0,0,1,19.3,19.3v65.074A19.3,19.3,0,0,1,1438.8,1284.278Z" transform="translate(-786.648 1071.364) rotate(-50)"/>
+    <path id="Path_291" data-name="Path 291" class="cls-2" d="M1565.306,1062.977c.735-1.1-172.061-1.1-171.693,0-47.611,23.53-79.413,65.994-79.413,114.524,0,74.082,73.9,134.009,165.259,134.009,91.178,0,165.259-59.927,165.259-134.009C1644.718,1128.971,1612.916,1086.507,1565.306,1062.977Z" transform="translate(-519.772 -509.356)"/>
+    <g id="Group_95" data-name="Group 95" transform="translate(260.745 -317.543) rotate(21)">
+      <path id="Path_288" data-name="Path 288" class="cls-3" d="M196.326,145.958c15.441-15.442,24.633-35.111,24.633-56.435C220.958,40.074,171.509,0,110.479,0S0,40.074,0,89.523c0,21.324,9.191,40.993,24.633,56.435C28.374,151.379,198.028,147.3,196.326,145.958Z" transform="translate(812.584 422.634) rotate(-13)"/>
+      <path id="Path_292" data-name="Path 292" class="cls-4" d="M0,12.435A12.368,12.368,0,1,1,24.736,12.3" transform="translate(890.823 470.03) rotate(-13)"/>
+      <path id="Path_293" data-name="Path 293" class="cls-4" d="M0,12.435A12.368,12.368,0,1,1,24.736,12.3" transform="translate(955.974 454.441) rotate(-13)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 240 480">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #6900ff;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #ffc300;
+      }
+
+      .cls-4 {
+        fill: #00ffe6;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="Path_399" data-name="Path 399" class="cls-1" d="M14,0H470a10,10,0,0,1,10,10V230a10,10,0,0,1-10,10H10A10,10,0,0,1,0,230V10C0,4.477,8.477,0,14,0Z" transform="translate(1839 308) rotate(90)"/>
+    </clipPath>
+  </defs>
+  <g id="wrong" transform="translate(-1466 -296)">
+    <path id="Path_398" data-name="Path 398" class="cls-1" d="M10,0H470a10,10,0,0,1,10,10V230a10,10,0,0,1-10,10H10A10,10,0,0,1,0,230V10A10,10,0,0,1,10,0Z" transform="translate(1706 296) rotate(90)"/>
+    <g id="Mask_Group_18" data-name="Mask Group 18" class="cls-2" transform="translate(-133 -12)">
+      <g id="Group_170" data-name="Group 170" transform="translate(139 383)">
+        <path id="Path_397" data-name="Path 397" class="cls-3" d="M0,0H199V190H0Z" transform="translate(1361 -28)"/>
+        <circle id="Ellipse_217" data-name="Ellipse 217" class="cls-4" cx="94" cy="94" r="94" transform="translate(1372 162)"/>
+      </g>
+    </g>
+  </g>
+</svg>
