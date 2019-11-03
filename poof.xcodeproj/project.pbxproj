@@ -250,6 +250,8 @@
 		604F72A22365AA4800A02FF4 /* level3finish.json in Resources */ = {isa = PBXBuildFile; fileRef = 604F728C2365AA4800A02FF4 /* level3finish.json */; };
 		604F72A32365AA4800A02FF4 /* haruka.json in Resources */ = {isa = PBXBuildFile; fileRef = 604F728D2365AA4800A02FF4 /* haruka.json */; };
 		604F72A52365AC9300A02FF4 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604F72A42365AC9300A02FF4 /* QuestionView.swift */; };
+		6084A475236DD9360078E63C /* poof.json in Resources */ = {isa = PBXBuildFile; fileRef = 6084A474236DD9350078E63C /* poof.json */; };
+		6084A477236DDED60078E63C /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6084A476236DDED60078E63C /* Info.swift */; };
 		9539009F5A08736D63294A8E /* Pods_poof.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA3722DD1577A88C5FCD705F /* Pods_poof.framework */; };
 /* End PBXBuildFile section */
 
@@ -499,6 +501,8 @@
 		604F728C2365AA4800A02FF4 /* level3finish.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = level3finish.json; sourceTree = "<group>"; };
 		604F728D2365AA4800A02FF4 /* haruka.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = haruka.json; sourceTree = "<group>"; };
 		604F72A42365AC9300A02FF4 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		6084A474236DD9350078E63C /* poof.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = poof.json; sourceTree = "<group>"; };
+		6084A476236DDED60078E63C /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
 		B1D9CF179C41FD0894D1A4A8 /* Pods-poof.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poof.release.xcconfig"; path = "Target Support Files/Pods-poof/Pods-poof.release.xcconfig"; sourceTree = "<group>"; };
 		DA3722DD1577A88C5FCD705F /* Pods_poof.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_poof.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E46C00DBCDE43CD0952F32F9 /* Pods-poof.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poof.debug.xcconfig"; path = "Target Support Files/Pods-poof/Pods-poof.debug.xcconfig"; sourceTree = "<group>"; };
@@ -568,6 +572,7 @@
 				6007BB0A233A974900586112 /* Info.plist */,
 				604F70D62365A1F300A02FF4 /* HexColor.swift */,
 				6007BB04233A974900586112 /* Preview Content */,
+				6084A474236DD9350078E63C /* poof.json */,
 			);
 			path = poof;
 			sourceTree = "<group>";
@@ -583,6 +588,7 @@
 		604F70D323659EC300A02FF4 /* Info */ = {
 			isa = PBXGroup;
 			children = (
+				6084A476236DDED60078E63C /* Info.swift */,
 				604F70CD2365982A00A02FF4 /* Level.swift */,
 				604F70CF2365990400A02FF4 /* Question.swift */,
 				604F70D123659D3900A02FF4 /* Object.swift */,
@@ -931,6 +937,7 @@
 				604F72052365A55900A02FF4 /* 5etoprightdashed.svg in Resources */,
 				604F726F2365A55900A02FF4 /* 5btopleftdashed.svg in Resources */,
 				604F722D2365A55900A02FF4 /* confetti.svg in Resources */,
+				6084A475236DD9360078E63C /* poof.json in Resources */,
 				604F726D2365A55900A02FF4 /* pyramidtriangletopdashed.svg in Resources */,
 				604F71DF2365A55900A02FF4 /* 5etopright.svg in Resources */,
 				604F71E52365A55900A02FF4 /* question4b.svg in Resources */,
@@ -1188,6 +1195,7 @@
 				604F70D523659F1500A02FF4 /* Poof.swift in Sources */,
 				6007BAFD233A974700586112 /* AppDelegate.swift in Sources */,
 				604F70D223659D3900A02FF4 /* Object.swift in Sources */,
+				6084A477236DDED60078E63C /* Info.swift in Sources */,
 				604F72762365A6DD00A02FF4 /* Target.swift in Sources */,
 				6021D9AB2365B43F0013BB46 /* SVG.swift in Sources */,
 				6007BAFF233A974700586112 /* SceneDelegate.swift in Sources */,

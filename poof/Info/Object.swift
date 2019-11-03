@@ -9,7 +9,7 @@
 import Foundation
 import CoreGraphics
 
-struct Object {
+struct Object:Decodable {
     let name:String
     let target:Target?
 }

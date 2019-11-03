@@ -9,13 +9,13 @@
 import Foundation
 import UIKit
 
-struct Level {
-    let backgroundColorR : UIColor
-    let backgroundColorL : UIColor
+struct Level:Decodable {
+    let backgroundColorR : String
+    let backgroundColorL : String
     let questions:[Question]
     let levelmonster:String
     let questionmonster : String
-    let finalmonster:String
+ 
     
     
 }

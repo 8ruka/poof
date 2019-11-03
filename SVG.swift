@@ -25,12 +25,33 @@ struct SVG: UIViewRepresentable {
         self.placement = placement
     }
     
-    func makeUIView(context: Context) -> SVGView {
-        return SVGView(name: name, over: color, size:size,  at: placement)
+    func makeUIView(context: Context) -> SVGWrapperView {
+        print("poof svg make ",name)
+        return SVGWrapperView(frame: .zero)
     }
     
-    func updateUIView(_ nodeView: SVGView, context: Context) {}
+    func updateUIView(_ svgView: SVGWrapperView, context: Context) {
+        print("poof svg",name)
+        svgView.update(name: name, over: color, size: size, at: placement)
+    }
     
+}
+
+class SVGWrapperView: UIView {
+    var view:UIView?
+    func update(name: String, over color: UIColor = .white,
+                size:CGSize? = nil, at placement: SVGPlacement = .aspectFit){
+        view?.removeFromSuperview()
+        let svgView = SVGView(name: name, over: color, size: size, at: placement)
+        addSubview(svgView)
+        svgView.translatesAutoresizingMaskIntoConstraints = false
+        svgView.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
+        svgView.centerYAnchor.constraint(equalTo: centerYAnchor).isActive = true
+        svgView.widthAnchor.constraint(equalTo: widthAnchor).isActive = true
+        svgView.heightAnchor.constraint(equalTo: heightAnchor).isActive = true
+        
+        view = svgView
+    }
 }
 
 public enum SVGPlacement {

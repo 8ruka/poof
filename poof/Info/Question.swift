@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-struct Question {
+struct Question:Decodable {
  
     let reciver : String
     let objects : [Object]

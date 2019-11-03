@@ -15,7 +15,7 @@ struct QuestionView: View {
     var body: some View {
         HStack(spacing: 0){
             ZStack {
-                Color(poof.currentLevel.backgroundColorL)
+                Color(.hex(poof.currentLevel.backgroundColorL))
                 SVG(poof.currentQuestion.reciver)
                     .padding(50)
                 ZStack {
@@ -37,36 +37,40 @@ struct QuestionView: View {
                 }
             }
             ZStack {
-                Color(poof.currentLevel.backgroundColorR)
-                VStack{
-                    ForEach(poof.currentQuestion.objects, id: \.name) { object in
-                        GeometryReader  { geo in
-                            SVG(object.name, at: .scaleFit(3))
-                            .frame(width:100, height:100)
-                            .offset(x:self.objectOffsets[object.name]?.width ?? 0,y:self.objectOffsets[object.name]?.height ?? 0)
-                            .padding(50)
-                            .animation(.easeOut)
-                            .zIndex(self.objectOffsets[object.name] != nil ? 1 : 0)
-                            .gesture(DragGesture()
-                                .onChanged({ (value) in
-                                    self.objectOffsets[object.name] = value.translation
-                                })
-                                .onEnded({ (value) in
-                                    self.objectOffsets[object.name] = .zero
-                                    let objectFrame = geo.frame(in:.global)
-                                    let point = CGPoint(x: objectFrame.minX + value.location.x, y: objectFrame.minY + value.location.y)
-                                    
-                                    print("point",point)
-                                    if let target = object.target{
-                                        let frame = self.targetFrames[target.name]!
-                                        print("frame",frame)
-                                        if frame.contains(point){
-                                            self.poof.questionCompleted()
+                Color(.hex(poof.currentLevel.backgroundColorR))
+                if poof.currentQuestionSucceed{
+                    Lottie(poof.currentLevel.questionmonster)
+                }else{
+                    VStack{
+                        ForEach(poof.currentQuestion.objects, id: \.name) { object in
+                            GeometryReader  { geo in
+                                SVG(object.name, at: .scaleFit(3))
+                                .frame(width:100, height:100)
+                                .offset(x:self.objectOffsets[object.name]?.width ?? 0,y:self.objectOffsets[object.name]?.height ?? 0)
+                                .padding(50)
+                                .animation(.easeOut)
+                                .zIndex(self.objectOffsets[object.name] != nil ? 1 : 0)
+                                .gesture(DragGesture()
+                                    .onChanged({ (value) in
+                                        self.objectOffsets[object.name] = value.translation
+                                    })
+                                    .onEnded({ (value) in
+                                        self.objectOffsets[object.name] = .zero
+                                        let objectFrame = geo.frame(in:.global)
+                                        let point = CGPoint(x: objectFrame.minX + value.location.x, y: objectFrame.minY + value.location.y)
+                                        
+                                        print("point",point)
+                                        if let target = object.target{
+                                            let frame = self.targetFrames[target.name]!
+                                            print("frame",frame)
+                                            if frame.contains(point){
+                                                self.poof.questionCompleted()
+                                            }
                                         }
-                                    }
-                                })
-                            )
-                        }     .frame(width:100, height:100)
+                                    })
+                                )
+                            }     .frame(width:100, height:100)
+                        }
                     }
                 }
             }

@@ -10,7 +10,7 @@ import Foundation
 import CoreGraphics
 import UIKit
 
-struct Target {
+struct Target:Decodable {
     let name:String
     let point:CGPoint
 }
