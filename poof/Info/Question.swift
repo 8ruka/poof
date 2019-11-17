@@ -11,7 +11,7 @@ import UIKit
 
 struct Question:Decodable {
  
-    let reciver : String
+    let recivers : [Reciever]
     let objects : [Object]
  
 

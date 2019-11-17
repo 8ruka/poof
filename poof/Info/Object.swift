@@ -11,5 +11,6 @@ import CoreGraphics
 
 struct Object:Decodable {
     let name:String
+    let size:CGSize
     let target:Target?
 }

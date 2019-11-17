@@ -11,18 +11,20 @@ import Foundation
 class Poof: ObservableObject {
     let info:Info
     
+    @Published var gameactive:Bool = false
     var currentLevelIndex: Int = 0
     var currentQuestionIndex: Int = 0
     @Published var currentLevel:Level!
     @Published var currentQuestion:Question!
     @Published var currentQuestionSucceed:Bool = false
+    @Published var currentLevelSucceed:Bool = false
  
     init() {
         print("Poof!")
         let path = Bundle.main.path(forResource: "poof", ofType: "json")!
         let json = try! Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
         info = try! JSONDecoder().decode(Info.self, from: json)
-        goToQuestion()
+        //goToQuestion()
     }
     
     func questionCompleted() {
@@ -37,7 +39,7 @@ class Poof: ObservableObject {
         
     }
     func goToQuestion() {
-        currentLevel = info.levels[currentLevelIndex]
+       
         guard currentQuestionIndex < currentLevel.questions.count else{
             levelCompleted()
             return
@@ -45,6 +47,40 @@ class Poof: ObservableObject {
         currentQuestion = currentLevel.questions[currentQuestionIndex]
     }
     func levelCompleted() {
-    print("level completed")
+        print("level completed")
+        currentQuestionIndex = 0
+        currentLevelSucceed = true
+        let timer = Timer(timeInterval: 1, repeats: false) { (t) in
+           self.currentLevelSucceed = false
+            self.currentLevelIndex += 1
+            self.goToLevel()
+            
+        }
+        RunLoop.current.add(timer, forMode: .common)
+    }
+    
+    func goToLevel() {
+        guard currentLevelIndex < info.levels.count else{
+            gameCompleted()
+            return
+        }
+        currentLevel = info.levels[currentLevelIndex]
+        goToQuestion()
+        
+    }
+    
+    
+    func goToLevel(_ level:Level) {
+        currentLevelIndex = getLevelIndex(from: level)
+        goToLevel()
+        gameactive = true
+    }
+    func getLevelIndex (from level:Level) -> Int{
+        info.levels.firstIndex(of: level )!
+    }
+    
+    func gameCompleted() {
+        print("gamecompleted")
+        gameactive = false
     }
 }

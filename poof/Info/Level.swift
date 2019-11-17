@@ -9,10 +9,17 @@
 import Foundation
 import UIKit
 
-struct Level:Decodable {
+struct Level:Decodable, Identifiable, Equatable{
+    static func == (lhs: Level, rhs: Level) -> Bool {
+        lhs.id == rhs.id
+    }
+    
+    var id: String{levelmonster}
+    
     let backgroundColorR : String
     let backgroundColorL : String
     let questions:[Question]
+    let menumonster:String
     let levelmonster:String
     let questionmonster : String
  

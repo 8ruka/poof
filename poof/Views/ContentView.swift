@@ -11,8 +11,14 @@ import SwiftUI
 struct ContentView: View {
     @EnvironmentObject var poof:Poof
     var body: some View {
-        QuestionView()
-            
+        Group{
+            if poof.gameactive {
+               LevelView()
+            }
+            else{
+             MenuView()
+            }
+        }
     }
 }
 

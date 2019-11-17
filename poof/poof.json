@@ -1,119 +1,305 @@
 
 {
-    "levels": [
+    "levels": [{
+        "backgroundColorR": "#FFF5FF",
+        "backgroundColorL": "#E6FFDC",
+        "menumonster": "icon1",
+        "levelmonster": "level1finish",
+        "questionmonster": "level1success",
+        "questions": [{
+            "recivers": [{
+                "name": "circlegreenface",
+                "point": [0,0],
+                "size": [300,300]
+            }],
+            "objects": [{
+                "name": "circlegreen",
+                "size": [100, 100],
+                "target": {
+                    "name": "circledashedlevel1",
+                    "point": [0, 0],
+                    "size": [100, 100]
+                }
+            },
+            {
+                "name": "triangleredsmall",
+                "size": [100, 100]
+            },
+            {
+                "name": "squarepurple",
+                "size": [100, 100]
+            }
+            ]
+        },
         {
-            "backgroundColorR":"#FFF5FF",
-            "backgroundColorL":"#E6FFDC",
-            "levelmonster":"level1finish",
-            "questionmonster":"level1success",
-            "questions":[
-                {
-                    "reciver":"circlegreenface",
-                    "objects":[
-                        {
-                            "name":"circlegreen",
-                            "target":{
-                                "name":"circledashedlevel1",
-                                "point":[
-                                    0,
-                                    0
-                                ]
-                            }
-                        },
-                        {
-                            "name":"triangleredsmall"
-                        },
-                        {
-                            "name":"squarepurple"
-                        }
-                    ]
-                },
-                {
-                    "reciver":"squarecyanface",
-                    "objects":[
-                        {
-                            "name":"squarepink",
-                            "target":{
-                                "name":"squaredashedlevel1",
-                                "point":[
-                                    0,
-                                    0
-                                ]
-                            }
-                        },
-                        {
-                            "name":"circlegreen"
-                        },
-                        {
-                            "name":"trianglered"
-                        }
-                    ]
-                },
-                {
-                    "reciver":"trianglepinkface",
-                    "objects":[
-                        {
-                            "name":"trianglepurple",
-                            "target":{
-                                "name":"triangledashedlevel1",
-                                "point":[
-                                    0,
-                                    0
-                                ]
-                            }
-                        },
-                        {
-                            "name":"pentagonborder"
-                        },
-                        {
-                            "name":"circlered"
-                        }
-                    ]
-                },
-                {
-                    "reciver":"pentagonpurpleface",
-                    "objects":[
-                        {
-                            "name":"pentagonred",
-                            "target":{
-                                "name":"pentagondashedlevel1",
-                                "point":[
-                                    0,
-                                    0
-                                ]
-                            }
-                        },
-                        {
-                            "name":"circlepink"
-                        },
-                        {
-                            "name":"triangleyellow"
-                        }
-                    ]
-                },
-                {
-                                "reciver":"starredface",
-                                "objects":[
-                                    {
-                                        "name":"stargreen",
-                                        "target":{
-                                            "name":"stardashedlevel1",
-                                            "point":[
-                                                0,
-                                                0
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "name":"circleborder"
-                                    },
-                                    {
-                                        "name":"squarepurple"
-                                    }
-                                ]
-                            }
+            "recivers": [{
+                "name": "squarecyanface",
+                "point": [0, 0],
+                "size": [300,300]
+            }],
+            "objects": [{
+                "name": "squarepink",
+                "size": [100, 100],
+                "target": {
+                    "name": "squaredashedlevel1",
+                    "point": [0, 0],
+                    "size": [100, 100]
+                }
+            },
+            {
+                "name": "circlegreen",
+                "size": [100, 100]
+            },
+            {
+                "name": "trianglered",
+                "size": [100, 100]
+            }
+            ]
+        },
+        {
+            "recivers": [{
+                "name": "trianglepinkface",
+                "point": [0, 0],
+                "size": [300, 300]
+            }],
+            "objects": [{
+                "name": "trianglepurple",
+                "size": [100, 100],
+                "target": {
+                    "name": "triangledashedlevel1",
+                    "point": [0,0],
+                    "size": [100, 100]
+                }
+            },
+            {
+                "name": "pentagonborder",
+                "size": [100, 100]
+            },
+            {
+                "name": "circlered",
+                "size": [100, 100]
+            }
+            ]
+        },
+        {
+            "recivers": [{
+                "name": "pentagonpurpleface",
+                "point": [0,0],
+                "size": [300, 300]
+            }],
+            "objects": [{
+                "name": "pentagonred",
+                "size": [100, 100],
+                "target": {
+                    "name": "pentagondashedlevel1",
+                    "point": [0,0],
+                    "size": [100, 100]
+                }
+            },
+            {
+                "name": "circlepink",
+                "size": [100, 100]
+            },
+            {
+                "name": "triangleyellow",
+                "size": [100, 100]
+            }
+            ]
+        },
+        {
+            "recivers": [{
+                "name": "starredface",
+                "point": [0,0],
+                "size": [300, 300]
+            }],
+            "objects": [{
+                "name": "stargreen",
+                "size": [100, 100],
+                "target": {
+                    "name": "stardashedlevel1",
+                    "point": [0,0],
+                    "size": [100, 100]
+                }
+            },
+            {
+                "name": "circleborder",
+                "size": [100, 100]
+            },
+            {
+                "name": "squarepurple",
+                "size": [100, 100]
+            }
             ]
         }
+        ]
+    },
+    {
+        "backgroundColorR": "#FFF5FF",
+        "backgroundColorL": "#E6FFDC",
+        "menumonster": "icon2",
+        "levelmonster": "level2finish",
+        "questionmonster": "level2success",
+        "questions": [
+            {
+            "recivers": [],
+            "objects": [{
+                "name": "circlegreensmall",
+                "size": [100,100],
+                "target": {
+                    "name": "circlesmalldashed",
+                    "point": [150, 10],
+                    "size": [100,100]
+                }
+            },
+            {
+                "name": "circlegreen",
+                "size": [150,150],
+                "target": {
+                    "name": "circledashed",
+                    "point": [-150,0],
+                    "size": [150,150]
+                }
+            },
+            {
+                "name": "circlegreenbig",
+                "size": [200,200],
+                "target": {
+                    "name": "circlebigdashed",
+                    "point": [20,100],
+                    "size": [200,200]
+                }
+            }
+            ]
+        },
+        {
+            "recivers": [],
+            "objects": [{
+                "name": "circlecyanbig",
+                "size": [0,0],
+                "target": {
+                    "name": "circlebigdashed",
+                    "point": [0, 0],
+                    "size": [0,0]
+                }
+            },
+            {
+                "name": "circlegreen",
+                "size": [0,0],
+                "target": {
+                    "name": "circledashed",
+                    "point": [0, 0],
+                    "size": [0,0]
+                }
+            },
+            {
+                "name": "circlepinksmall",
+                "size": [0,0],
+                "target": {
+                    "name": "circlesmalldashed",
+                    "point": [0, 0],
+                    "size": [0,0]
+                }
+            }
+            ]
+        },
+        {
+            
+            "recivers": [],
+            "objects": [{
+                "name": "squarepurplebig",
+                "size": [0,0],
+                "target": {
+                    "name": "squarepurplebigdashed",
+                    "point": [0,0],
+                    "size": [0,0]
+                }
+            },
+            {
+                "name": "squarepink",
+                "size": [0,0],
+                "target": {
+                    "name": "squaredashed",
+                    "point": [0,0],
+                    "size": [0,0]
+                }
+            },
+            {
+                "name": "circleyellowsmall",
+                "size": [0,0],
+                "target": {
+                    "name": "circlesmalldashed",
+                    "point": [0,0],
+                    "size": [0,0]
+                }
+            }
+            ]
+        },
+        {
+            
+            "recivers": [],
+            "objects": [{
+                "name": "circlecyanbig",
+                "size": [0,0],
+                "target": {
+                    "name": "circlebigdashed",
+                    "point": [0, 0],
+                    "size": [0,0]
+                }
+            },
+            {
+                "name": "circlegreen",
+                "size": [0,0],
+                "target": {
+                    "name": "circledashed",
+                    "point": [0, 0],
+                    "size": [0,0]
+                }
+            },
+            {
+                "name": "circlepinksmall",
+                "size": [0,0],
+                "target": {
+                    "name": "circlesmalldashed",
+                    "point": [0, 0],
+                    "size": [0,0]
+                }
+            }
+            ]
+        },
+        {
+            
+            "recivers": [],
+            "objects": [{
+                "name": "trianglecyanbig",
+                "size": [0,0],
+                "target": {
+                    "name": "trianglebigdashed",
+                    "point": [0, 0],
+                    "size": [0,0]
+                }
+            },
+            {
+                "name": "circlegreen",
+                "size": [0,0],
+                "target": {
+                    "name": "circledashed",
+                    "point": [0, 0],
+                    "size": [0,0]
+                }
+            },
+            {
+                "name": "starpurplesmall",
+                "size": [0,0],
+                "target": {
+                    "name": "starsmalldashed",
+                    "point": [0, 0],
+                    "size": [0,0]
+                }
+            }
+            ]
+        }
+        ]
+    }
     ],
-    "finalmonster" : ""
+    "finalmonster": ""
 }
